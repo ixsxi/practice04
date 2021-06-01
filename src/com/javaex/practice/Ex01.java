@@ -14,7 +14,7 @@ public class Ex01 {
 		
 		int result = 0;
 		
-		for(int i =0; i <=intArray.length; i++) {       // 일단은 답은 < 이건데 <= 이렇게 하고싶음 어케하나 ?
+		for(int i =0; i <=intArray.length-1; i++) {       // 일단은 답은 < 이건데 <= 이렇게 하고싶음 어케하나 ?
 			result =result + intArray[i];             
 		
 		}

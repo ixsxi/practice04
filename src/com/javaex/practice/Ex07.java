@@ -11,6 +11,7 @@ public class Ex07 {
 		int num = sc.nextInt();
 		
 		int[] wonArray =new int[10];
+		
 		wonArray[0] = 50000;
 		wonArray[1] = 10000;
 		wonArray[2] = 5000;
@@ -22,11 +23,19 @@ public class Ex07 {
 		wonArray[8] = 5;
 		wonArray[9] = 1;
 		
-		 for(int i=0; i<wonArray.length; i++) {
-			 int val =0;
-			 val =num/wonArray[i];
-			 
-		 }
-
-}
+		
+		
+		for(int i=0; i<wonArray.length; i++) {
+			int val=0;
+			val=num/wonArray[i];
+			num = num-(wonArray[i] * val); 
+			System.out.println(wonArray[i] + "원: " + val);
+			
+			
+		} 
+		
+		
+		sc.close();
+	}
+		
 }
