@@ -7,7 +7,7 @@ public class Ex03 {
 		int[] intA = {3,6,9};
 		
 		int[] intB ;
-		intB = intA;
+		intB = intA ;
 		intB[0] = 20;
 		intB[2] = 10;
 		

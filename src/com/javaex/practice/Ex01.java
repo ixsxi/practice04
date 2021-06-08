@@ -7,7 +7,7 @@ public class Ex01 {
 		int[] intArray =new int[5];
 		
 		intArray[0] = 3;
-		intArray[1] = 1;
+		intArray[1] = 7;
 		intArray[2] = 12;
 	
 		
